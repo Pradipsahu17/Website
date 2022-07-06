@@ -51,7 +51,7 @@ nav ul li a{
 }
 
 .homered{
-	background-color: #55A5C0;
+	background-color:  #8cd98c;
 	padding: 30px 10px 16px 10px;
 }
 
@@ -78,17 +78,17 @@ nav ul li a{
 }
 
 .divider{
-	background-color: #55A5C0;
+	background-color:  #8cd98c;
 	height: 5px;
 }
 	
 .homeblack:hover{
-	background-color: #A2A2A2;
+	background-color: #b3e6b3;
 	padding: 30px 10px 16px 10px;
 }
 
 .fwimage1 {
-	background-image: url(../images/a.jpeg);
+	background-image: url(../images/g.jpg);
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
@@ -97,17 +97,17 @@ nav ul li a{
 	margin: 0;
 	padding: 0;
 }
-
+/*
 .imageblog{
 	margin: 0px;
 	padding: 0px;
-	background-image: url(../images/a.jpeg);
+	background-image: url(../images/h.jpg);
 	width: 100%;
 	height: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-}
+}*/
 
 .fwimage2 {
 	background-image: url(../images/ace.jpg);
@@ -176,7 +176,7 @@ nav ul li a{
 
 .buttonhome {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color:  #8cd98c;
   border: none;
   color: #FFFFFF;
   text-align: center;
