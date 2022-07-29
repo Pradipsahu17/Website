@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pradip Sahu</title>
+    <link href="../style/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="icon" type="../image/x-icon" href="../images/icon.ico">
+	<style>
+        .tbla {
+            border: 3px inset #8C9094;
+            box-sizing: border-box;
+            overflow: hidden;
+            box-shadow: 5px 5px 10px #40bf40;
+            width: 70%;
+            height: 50%;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            border-radius: 15px
+        }
+
+        td {
+            padding: 10px;
+            padding-left: 10px;
+            vertical-align: top;
+        }
+        
+	.button1 {
+		margin: 0% 0% 0% 38%;
+		background: #8cd98c;
+		color: black plain;
+		border: solid;
+		height: 40px;
+		font-size: 1.3em;
+		padding: 0 1em;
+		cursor: pointer;
+		outline: none;
+		font-family: 'Arial', sans-serif;
+		font-weight: 700;
+		border-radius: 10px ;
+		}
+
+	.button1:hover{
+		background-color:#40bf40
+     }
+	 
+    </style>
+    <script>
+        function validate() {
+
+            var name = document.forms["form"]["nm"].value;
+            var email = document.forms["form"]["em"].value;
+            var txtMessage = document.forms["form"]["txtarea"].value;
+
+            if (name == "" || email == "" || txtMessage == "") {
+                alert("Please fill all the text areas.")
+            }
+
+            else {
+                alert("Thanks for sending message.")
+            }
+        }
+
+        
+	</script>
+</head>
+
+	<body>
+		<header>
+			<nav>
+				<h1>Pradip Sahu</h1>
+				<ul id="nav">
+					<li><a class="homeblack" href="../index.html">HOME</a></li>
+					<li><a class="homeblack" href="CV.html">CV</a></li>
+					<li class="dropdown">
+						<button class="dropbtn">BLOG <i class="fa fa-caret-down"></i></button>
+						<div class="dropdown-content">
+							<a href="blog.html">Blog</a>
+					    <a href="foodblog.html">Food Blog</a>
+						</div>
+					</li>
+					<li><a class="homeblack" href="research.html">RESEARCH</a></li>
+					<li><a class="homered" href="contact.html">CONTACT</a></li>
+				</ul>
+				  <ul class="wrapper">
+					<li><a href="https://www.facebook.com/pradip.sahu.17"><i class="fa fa-facebook-official"></i></a></i></li>
+					<li><a href="https://www.instagram.com/pradip_sahu17/"><i class="fa fa-instagram"></i></a></i></li>
+					<li><a href="https://accounts.snapchat.com/accounts/snapcodes"><i class="fa fa-snapchat-square"></i></a></i></li>
+					<li><a href="https://www.pinterest.com/pradipsahu648/"><i class="fa fa-pinterest-p"></i></a></i></li>
+				  </ul>
+			</nav>
+		</header>
+		<div class="divider"></div>
+		<div class="fwimage5"> 
+			<h1 align="center">CONTACT FORM</h1>
+			<div>
+				<table class="tbla" >
+						<tr>
+						<td  valign=" top" style="border-right: 2px solid #8860D0; border-radius: 10px;">
+							<div>
+								<form class="form" name="form" action="connect.php" method="POST">
+
+									<table>
+										<tr>
+											<td><label style="font-weight: bold;">Name:</label></td>
+											<td> <input type="text" name="nm" required value="" placeholder="  Write your name here"
+													style="border:none; ;border-bottom: 3px solid black;width:260px;border-radius: 10px; height: 25px;">
+											</td>
+										</tr>
+
+										<tr>
+											<td><label style="font-weight: bold;">Email:</label></td>
+											<td> <input type="text" required name="em" value="" placeholder="  Email address here"
+													style="border:none;border-bottom: 3px solid black;width:260px; border-radius: 10px; height: 25px;">
+											</td>
+										</tr>
+
+										<tr>
+											<td>
+												<label style="font-weight: bold;">Message:</label>
+											</td>
+
+											<td>
+												<textarea rows="7" column="35" required name="txtarea" placeholder=" Write a message here" style="border:none;border-bottom: 3px solid black;width:260px;border-top: 1px solid black; border-radius: 10px"></textarea>
+											</td>
+										</tr>
+
+									</table><br><br>
+
+									<button class="button1">
+										<a onclick="validate()">Send</a>
+									</button>
+								</form>
+							</div>
+							</td>
+
+							<td style="padding-right:80px">
+								<div>
+									<table>
+										<h4 style="padding-left:28px; font-weight:bold; font-size: 26px">You can also contact me through:</h4><br>
+
+										<tr>
+											<td><img src="../images/location.png" width="32" height="32"></td>
+											<td style="font-weight: bold;font-size: 20px">Boudha-2,Kathmandu</td>
+										</tr>
+
+
+										<tr>
+											<td><img src="../images/mail.png" width="20" height="20"></td>
+											<td style="font-weight: bold;font-size: 20px">pradipsahu648@gmail.com</td>
+										</tr>
+
+										<tr>
+											<td><img src="../images/phone.jpg" width="20" height="20"></td>
+											<td style="font-weight: bold;font-size: 20px">+977-9860663066</td>
+										</tr>
+									</table>
+								</div>
+							</td>
+						</tr>
+				</table>
+		</div>
+	</div>
+	</body>
+	
+	<footer>
+		<p align="center">&copy; 2022 Pradip Sahu. All Rights Reserved. <br> Privacy. Terms. Contact. Services. FAQ.</p>
+	</footer>
+	
+</html>
