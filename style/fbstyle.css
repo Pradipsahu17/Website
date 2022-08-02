@@ -1,0 +1,131 @@
+.column1 {
+  float: right;
+  width: 32.5%;
+  table-layout: fixed;
+  margin: 105px 0px 0px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .column1 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+}
+
+
+.column {
+  float: right;
+  width: 32.5%;
+  table-layout: fixed;
+  margin: 40px 0px 0px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.lcolumn {
+  float: right;
+  width: 32.5%;
+  table-layout: fixed;
+  margin: 45px 0px 0px 0px;
+  padding: 0px 0px 30px 0px;
+}
+
+@media screen and (max-width: 900px) {
+  .lcolumn {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lcolumn {
+    width: 100%;
+  }
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: antiquewhite;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.foodpic:hover {
+  opacity: 0.3;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 8px solid black;
+}
+
+
+
+.food {
+  background-color: antiquewhite;
+  
+  font-family: Arial;
+}
+
+.foodpic{
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  border: 8px solid black;
+}
+
+.foodpic:hover{
+  border: 8px solid antiquewhite;
+  opacity: 0.5;
+  transition: 0.6s ease;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.restaurant{
+  opacity: 0;
+  margin: -150px 0px 0px 0px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+
+.content:hover .restaurant {
+
+  opacity: 10;
+  text-align: center;
+}
+
+
+
+.content:hover .foodpic {
+  border: 8px solid antiquewhite;
+  opacity: 0.2;
+  transition: 0.4s ease;
+}
+
+.footer {
+  margin: 20px 0px 0px 0px;
+  color: black;
+  text-align: center;
+}
